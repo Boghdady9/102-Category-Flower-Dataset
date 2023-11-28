@@ -49,7 +49,7 @@ The images are augmented using the following transformations:
 - Resize
 
 ## 5. Model
-The model is a convformer. The model is trained for 20 epochs with a batch size of 32. The model is trained using the Adam optimizer with a learning rate of 0.0001.
+The pre-trained model is convformer_s18. The model is fine tuned for 20 epochs with a batch size of 32. The the Adam optimizer is used with a learning rate of 0.0001.
 
 ## 6. Results
 The model achieves an accuracy of 87% on the test set.
